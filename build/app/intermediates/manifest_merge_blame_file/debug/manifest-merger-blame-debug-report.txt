@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutter_clock"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:2:3-78
+15-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:2:20-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:3:3-65
+16-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:3:20-63
+17
+18    <application
+18-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:5:3-35:17
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.6.0] /Users/wilyanto/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:5:46-80
+22        android:label="flutter_clock" >
+22-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:5:16-45
+23        <activity
+23-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:6:5-21:16
+24            android:name="com.example.flutter_clock.MainActivity"
+24-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:6:15-43
+25            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+25-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:6:110-260
+26            android:hardwareAccelerated="true"
+26-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:6:261-295
+27            android:launchMode="singleTop"
+27-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:6:44-74
+28            android:theme="@style/LaunchTheme"
+28-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:6:75-109
+29            android:windowSoftInputMode="adjustResize" >
+29-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:6:296-338
+30
+31            <!--
+32           Specifies an Android theme to apply to this Activity as soon as
+33                 the Android process has started. This theme is visible to the user
+34                 while the Flutter UI initializes. After that, this theme continues
+35                 to determine the Window background behind the Flutter UI.
+36            -->
+37            <meta-data
+37-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:11:7-114
+38                android:name="io.flutter.embedding.android.NormalTheme"
+38-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:11:18-73
+39                android:resource="@style/NormalTheme" />
+39-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:11:74-111
+40            <!--
+41           Displays an Android View that continues showing the launch screen
+42                 Drawable until Flutter paints its first frame, then this splash
+43                 screen fades out. A splash screen is useful to avoid any visual
+44                 gap between the end of Android's launch screen and the painting of
+45                 Flutter's first frame.
+46            -->
+47            <intent-filter>
+47-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:17:7-20:23
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:18:9-60
+48-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:18:17-58
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:19:9-68
+50-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:19:19-66
+51            </intent-filter>
+52        </activity>
+53
+54        <!-- android_alarm_manager_plu package's settings -->
+55        <service
+55-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:24:5-164
+56            android:name="io.flutter.plugins.androidalarmmanager.AlarmService"
+56-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:24:14-80
+57            android:exported="false"
+57-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:24:138-162
+58            android:permission="android.permission.BIND_JOB_SERVICE" />
+58-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:24:81-137
+59
+60        <receiver
+60-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:25:5-118
+61            android:name="io.flutter.plugins.androidalarmmanager.AlarmBroadcastReceiver"
+61-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:25:15-91
+62            android:exported="false" />
+62-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:25:92-116
+63        <receiver
+63-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:26:5-30:16
+64            android:name="io.flutter.plugins.androidalarmmanager.RebootBroadcastReceiver"
+64-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:26:15-92
+65            android:enabled="false" >
+65-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:26:93-116
+66            <intent-filter>
+66-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:27:7-29:23
+67                <action android:name="android.intent.action.BOOT_COMPLETED" />
+67-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:28:9-70
+67-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:28:17-68
+68            </intent-filter>
+69        </receiver>
+70
+71        <!--
+72         Don't delete the meta-data below.
+73             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+74        -->
+75        <meta-data
+75-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:34:5-68
+76            android:name="flutterEmbedding"
+76-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:34:16-47
+77            android:value="2" />
+77-->/Users/wilyanto/Documents/flutter-app/flutter_clock/android/app/src/main/AndroidManifest.xml:34:48-65
+78    </application>
+79
+80</manifest>
