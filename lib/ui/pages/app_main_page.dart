@@ -44,6 +44,7 @@ class AppMainPage extends HookWidget {
                   }
                 },
                 child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     const Instructions(),
                     Obx(

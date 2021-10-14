@@ -2,12 +2,6 @@
   "configVersion": 2,
   "packages": [
     {
-      "name": "android_alarm_manager_plus",
-      "rootUri": "file:///Users/wilyanto/.pub-cache/hosted/pub.dartlang.org/android_alarm_manager_plus-2.0.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "async",
       "rootUri": "file:///Users/wilyanto/.pub-cache/hosted/pub.dartlang.org/async-2.8.1",
       "packageUri": "lib/",
@@ -266,7 +260,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-10-14T11:16:31.588347Z",
+  "generated": "2021-10-14T11:58:26.955944Z",
   "generator": "pub",
   "generatorVersion": "2.14.3"
 }

@@ -1,16 +1,13 @@
-# flutter_clock
+# Flutter Analog Clock
 
-A new Flutter project.
+An Analog Clock View with swipe gesture detector to adjust the hour hand and minute hand of the clock
 
-## Getting Started
+## Demo
 
-This project is a starting point for a Flutter application.
+Here is the preview to adjust the clock's hand
 
-A few resources to get you started if this is your first Flutter project:
+![demo](assets/gifs/demo.gif)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## How to run
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+After you clone the project, do ```flutter pub get``` and simply ```flutter run``` on your emulator/simulator on the root project
