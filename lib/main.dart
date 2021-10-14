@@ -21,7 +21,6 @@ Future<void> main() async {
 
   await AndroidAlarmManager.periodic(
     const Duration(seconds: 10),
-    // const Duration(minutes: 1),
     helloAlarmId,
     printHello,
   );
